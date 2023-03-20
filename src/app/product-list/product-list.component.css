@@ -1,11 +1,11 @@
-h2{
+.navbar h2 {
   text-align: center;
   text-transform: uppercase;
   font-weight: 600;
   color: rgb(136, 39, 39);
-  padding-top: 1rem;
+  margin-top: 20px;
+  margin-bottom: -10px;
   font-size: 30px;
-  
 }
 
 .container {
@@ -14,15 +14,14 @@ h2{
   justify-content: space-between;
   margin: 2rem;
   padding: 2rem;
-  background: rgba( 255, 255, 255, 0.3 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 20px );
-  -webkit-backdrop-filter: blur( 20px );
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-.container button{
+.container button {
   border-radius: 50px;
 }
-
