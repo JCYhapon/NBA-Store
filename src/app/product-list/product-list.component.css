@@ -25,3 +25,7 @@
 .container button {
   border-radius: 50px;
 }
+
+.container .description {
+  text-align: justify;
+}
