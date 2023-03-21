@@ -1,7 +1,43 @@
+.container {
+  display: block;
+  background: rgba(148, 58, 58, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 3rem;
+  text-align: center;
+  height: 25rem;
+  width: 50vh;
+  margin-left: 10rem;
+  margin-top: 5rem;
+  background-color: rgb(57, 124, 224);
+}
 
+.container h3 {
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  margin-top: -0.5rem;
+}
 
-/*
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at https://angular.io/license
-*/
+.container .name label {
+  color: white;
+  justify-content: start;
+}
+
+.container .address label {
+  color: white;
+  justify-content: start;
+}
+
+.container p a {
+  color: white;
+}
+
+.container button {
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+}
