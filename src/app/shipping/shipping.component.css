@@ -1,7 +1,23 @@
+.container {
+  display: block;
+  padding: 3rem;
+  margin: 2rem;
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
 
+.container .shipping {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-/*
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at https://angular.io/license
-*/
+.container .shipping h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+}
