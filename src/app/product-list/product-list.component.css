@@ -31,9 +31,12 @@
 }
 
 .container .background img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 50%;
   height: 12rem;
+}
+
+.container .background {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
