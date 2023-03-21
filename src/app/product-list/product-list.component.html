@@ -1,23 +1,25 @@
 <div class="navbar">
-  
   <h2>NBA City Edition Items</h2>
 </div>
 
 <div *ngFor="let product of products" class="container">
-  <h3>
-    <a
-      [title]="product.name + ' details'"
-      [routerLink]="['/products', product.id]"
-    >
-      {{ product.name }}
-    </a>
-  </h3>
+  <div class="background">
+    <img src="/assets/curry.jpg" alt="" />
+    <h3>
+      <a
+        [title]="product.name + ' details'"
+        [routerLink]="['/products', product.id]"
+      >
+        {{ product.name }}
+      </a>
+    </h3>
+  </div>
 
   <p *ngIf="product.description" class="description">
     Description: {{ product.description }}
   </p>
 
-  <button type="button" (click)="share()">Share</button>
+  <button type="button" (click)="share()">Get</button>
 
   <app-product-alerts [product]="product" (notify)="onNotify()">
   </app-product-alerts>

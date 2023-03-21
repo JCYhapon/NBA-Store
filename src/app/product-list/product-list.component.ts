@@ -15,7 +15,7 @@ export class ProductListComponent {
   products = [...products];
 
   share() {
-    window.alert('The product has been shared!');
+    window.alert('The item has been listed to your cart.');
   }
 
   onNotify() {
