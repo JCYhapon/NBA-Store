@@ -1,8 +1,9 @@
 .container {
   display: block;
   padding: 3rem;
-  margin: 2rem;
-  background: rgba(255, 255, 255, 0.85);
+  margin-left: 10rem;
+  margin-top: 5rem;
+  background: rgba(0, 65, 163, 0.5);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
@@ -10,14 +11,26 @@
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
+.container h3 {
+  color: white;
+}
+
 .container .shipping {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-
+.container .fee .shipping-item {
+  background-color: rgb(32, 32, 156);
+  border-radius: 25px;
+}
 .container .shipping h3 {
   text-align: center;
   text-transform: uppercase;
   font-weight: 400;
+}
+
+.container .fee span {
+  color: white;
+  text-transform: uppercase;
 }
